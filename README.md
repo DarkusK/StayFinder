@@ -65,3 +65,10 @@ src/
   utils/        # date & price formatting
   index.css     # design tokens + all styles
 ```
+
+## License
+
+The original source code in this repository is licensed under the
+[PolyForm Noncommercial License 1.0.0](LICENSE.md). Commercial use of this project's original
+source code, in whole or in part, is not licensed. Third-party dependencies and media remain
+subject to their respective licenses and terms.
