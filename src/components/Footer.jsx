@@ -12,7 +12,7 @@ export default function Footer() {
         <div className="footer-grid">
           <div>
             <Link to="/" className="brand">
-              <img src="/logo.svg" alt="StayFinder logo" style={{ height: 32 }} />
+              <img src={`${import.meta.env.BASE_URL}logo.svg`} alt="StayFinder logo" style={{ height: 32 }} />
               <span>StayFinder</span>
             </Link>
             <p className="muted-light" style={{ marginTop: 14 }}>

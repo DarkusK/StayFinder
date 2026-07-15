@@ -14,7 +14,7 @@ export default function Navbar() {
     <header className="navbar">
       <div className="container navbar-inner">
         <Link to="/" className="brand" onClick={close}>
-          <img src="/logo.svg" alt="StayFinder logo" />
+          <img src={`${import.meta.env.BASE_URL}logo.svg`} alt="StayFinder logo" />
           <span>StayFinder</span>
         </Link>
 
